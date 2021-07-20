@@ -35,6 +35,21 @@
                             </div>
                         </div>
                     </div>
+
+                    <div class="input-group mb-3">
+                        <select class="form-control" class="custom-select form-control-border" placeholder="Sebagai"
+                            id="exampleSelectBorder">
+                            <option value="">-- Sebagai --</option>
+                            <option value="1">Admin SSB</option>
+                            <option value="2">Pelatih</option>
+                            <option value="3">Pemain</option>
+                        </select>
+                        <div class="input-group-append">
+                            <div class="input-group-text">
+                                <span class="fas fa-house-user"></span>
+                            </div>
+                        </div>
+                    </div>
                     <div class="input-group mb-3">
                         <input type="email" class="form-control" placeholder="Email">
                         <div class="input-group-append">
@@ -60,17 +75,10 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-8">
-                            <div class="icheck-primary">
-                                <input type="checkbox" id="agreeTerms" name="terms" value="agree">
-                                <label for="agreeTerms">
-                                    I agree to the <a href="#">terms</a>
-                                </label>
-                            </div>
-                        </div>
+
                         <!-- /.col -->
                         <div class="col-4">
-                            <button type="submit" class="btn btn-primary btn-block">Register</button>
+                            <button type="submit" class="btn btn-primary btn-block">Daftar</button>
                         </div>
                         <!-- /.col -->
                     </div>

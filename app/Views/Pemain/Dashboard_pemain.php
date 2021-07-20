@@ -2,7 +2,7 @@
 <?= $this->Section('Content') ?>
 <!-- Conten -->
 <div>
-    <h1>ini Halaman Dashboar Super Admin </h1>
+    <h1>ini Halaman Dashboar Pemain </h1>
 </div>
 
 
