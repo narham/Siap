@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>AdminLTE 3 | Registration Page (v2)</title>
+    <title>SIAP | Registrasi</title>
 
     <!-- Google Font: Source Sans Pro -->
     <link rel="stylesheet"
@@ -24,11 +24,11 @@
                 <a href="#" class="h1"><b>SIAP</b>FOPSDIM</a>
             </div>
             <div class="card-body">
-                <p class="login-box-msg">Register a new membership</p>
+                <p class="login-box-msg">Silahkan Daftar Akun</p>
 
                 <form action="#" method="post">
                     <div class="input-group mb-3">
-                        <input type="text" class="form-control" placeholder="Full name">
+                        <input name="nama" type="text" class="form-control" placeholder="Full name">
                         <div class="input-group-append">
                             <div class="input-group-text">
                                 <span class="fas fa-user"></span>
@@ -37,8 +37,8 @@
                     </div>
 
                     <div class="input-group mb-3">
-                        <select class="form-control" class="custom-select form-control-border" placeholder="Sebagai"
-                            id="exampleSelectBorder">
+                        <select name="level" class="form-control" class="custom-select form-control-border"
+                            placeholder="Sebagai" id="exampleSelectBorder">
                             <option value="">-- Sebagai --</option>
                             <option value="1">Admin SSB</option>
                             <option value="2">Pelatih</option>
@@ -51,7 +51,7 @@
                         </div>
                     </div>
                     <div class="input-group mb-3">
-                        <input type="email" class="form-control" placeholder="Email">
+                        <input name="email" type="email" class="form-control" placeholder="Email">
                         <div class="input-group-append">
                             <div class="input-group-text">
                                 <span class="fas fa-envelope"></span>
@@ -67,7 +67,7 @@
                         </div>
                     </div>
                     <div class="input-group mb-3">
-                        <input type="password" class="form-control" placeholder="Retype password">
+                        <input name="password" type="password" class="form-control" placeholder="Retype password">
                         <div class="input-group-append">
                             <div class="input-group-text">
                                 <span class="fas fa-lock"></span>
@@ -83,7 +83,7 @@
                         <!-- /.col -->
                     </div>
                 </form>
-                <a href="login.html" class="text-center">I already have a membership</a>
+                <a href="#" class="text-center">Sudah Punya Akun? Silahkan Login</a>
             </div>
             <!-- /.form-box -->
         </div><!-- /.card -->
